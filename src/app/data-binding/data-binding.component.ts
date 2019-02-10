@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { MeuFormComponent } from './../meu-form/meu-form.component';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-data-binding',
@@ -14,7 +15,9 @@ export class DataBindingComponent implements OnInit {
   public valorSalvo: String = '';
 
   public isMouseOver: Boolean = false;
-  public isMouseIn: Boolean = false;
+  public nome: String = 'abc';
+
+
 
   constructor() { }
 
