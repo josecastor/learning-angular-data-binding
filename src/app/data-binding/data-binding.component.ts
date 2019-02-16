@@ -17,6 +17,7 @@ export class DataBindingComponent implements OnInit {
   public isMouseOver: Boolean = false;
   public nome: String = 'abc';
 
+  public nomeDoCurso: String = 'Angular';
 
 
   constructor() { }
